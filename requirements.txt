@@ -1,0 +1,10 @@
+ultralytics>=8.2
+opencv-python>=4.9
+easyocr>=1.7
+sqlalchemy>=2.0
+numpy>=1.26
+huggingface_hub>=0.24   # only needed for download_plate_model.py
+
+# Add later, when you wrap this in FastAPI:
+# fastapi>=0.111
+# uvicorn[standard]>=0.30
